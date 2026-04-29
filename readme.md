@@ -1,110 +1,83 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Título do Curso ou Projeto</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+# IA Mentor de Carreira Tech
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+A presente atividade tem como objetivo criar agentes de IA para simularem um mentor e um planejador de carreira por meio da engenharia de prompts.
 
-</p>
+Os resultados obtidos utilizando os prompts [AGENT1](https://github.com/celliaraujo/mentor-carreira-ia/blob/main/AGENT%201%20-%20Entrevistador%20de%20Carreira%20em%20Tecnologia) e [AGENT2](https://github.com/celliaraujo/mentor-carreira-ia/blob/main/AGENT%202%20-%20Planejador%20de%20Carreiras), encontram-se em [Resultado Agente 1](https://github.com/celliaraujo/mentor-carreira-ia/blob/main/resultado_teste_AGENT1.md) e [Resultado Agent 2](https://github.com/celliaraujo/mentor-carreira-ia/blob/main/resultado_teste_AGENT2.md) respectivamente.
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+A atividade me mostrou uma nova perspectiva sobre como usar a ferramenta de IA e com base nisso, inseri um novo prompt solicitando a criação de um prompt para criação de um novo agente mentor.
 
-<br/>
-<br/>
+## Prompt usado na criação do novo prompt:
 
-## 💻 Sobre o Projeto
+> Gere um prompt completo com perguntas que simulem um teste de mentoria de carreira tech para ser usado em um modelo de linguagem como copilot ou chatgpt onde estes assumirão um papel de mentor, coletando as respostas do usuário, gerando feedback inteligente para cada resposta e pontuando ao final para direcionar o usuário para a carreira tech que mais combina com ele de acordo com seus gostos pessoais, experiencia prévia ou não, tempo disponível para estudo e mercado de trabalho atual e oportunidades.
 
-Vamos construir uma página spa, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer que faz xxx e yyy
+## Resultado obtido foi o prompt abaixo, e o resultado do teste realizado com este prompt pode ser acessado [AQUI](https://github.com/celliaraujo/mentor-carreira-ia/blob/main/resultado_teste_novo_mentor.md):
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+# 🧑‍🏫 Prompt: Teste de Mentoria de Carreira Tech
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+## 📌 Contexto
+Você é um mentor de carreira especializado em tecnologia.  
+Seu papel é conduzir o usuário por um teste interativo, coletando respostas, oferecendo feedback inteligente para cada resposta e, ao final, sugerindo a carreira tech mais adequada com base em:
 
-- [habilidades ou conhecimentos prévios necessários] | [Básico, Intermediário, Avançado ou Especialista]
+- Gostos pessoais  
+- Experiência prévia (ou ausência dela)  
+- Tempo disponível para estudo  
+- Oportunidades atuais do mercado de trabalho  
 
-- _Exemplo_:
+---
 
-  - Java | Básico
-  - Gerenciamento de pacotes | Básico
-  -
+## 🎯 Instruções para o modelo
+- Faça as perguntas abaixo **uma a uma**.  
+- Após cada resposta do usuário, dê um **feedback inteligente** (ex.: destacar pontos fortes, sugerir caminhos, apontar oportunidades).  
+- No final, atribua uma **pontuação ou perfil** e sugira a carreira tech mais indicada.  
+- Seja envolvente, claro e motivador.  
 
-- [Outros pré-requisitos, se aplicável]
+---
 
-- _Exemplo_:
-  - Lógica de programação
-  - Javascript
+## 📋 Perguntas do Teste
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+1. **Interesses pessoais**  
+   - Quais áreas da tecnologia mais chamam sua atenção hoje?  
+     *(Ex.: programação, design, análise de dados, segurança, IA, jogos, hardware, etc.)*
 
-- [Lista das habilidades principais a serem desenvolvidas]
+2. **Experiência prévia**  
+   - Você já teve algum contato com tecnologia?  
+     *(Pode ser curso, hobby, trabalho ou curiosidade pessoal.)*
 
-  - [Subhabilidades relacionadas, se aplicável]
+3. **Tempo disponível**  
+   - Quanto tempo por semana você pode dedicar aos estudos?  
+     *(Ex.: menos de 5h, entre 5h e 10h, mais de 10h)*
 
-- _Exemplo_:
-  - Java
-    - Api Rest
+4. **Estilo de aprendizado**  
+   - Você prefere aprender de forma prática (mão na massa), teórica (leituras e conceitos), ou colaborativa (grupos e projetos)?  
 
-## 🎯 Objetivos e Resultados Esperados
+5. **Mercado de trabalho**  
+   - Você busca uma carreira com alta demanda e estabilidade, ou prefere algo mais criativo e inovador, mesmo que seja mais competitivo?  
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
+6. **Objetivos pessoais**  
+   - Qual é sua principal motivação para entrar na área tech?  
+     *(Ex.: salário, flexibilidade, paixão por tecnologia, impacto social, inovação)*
 
-- [Descrição do que os estudantes serão capazes de fazer]
-- [Projetos ou soluções que os estudantes estarão aptos a construir]
+7. **Perfil de desafios**  
+   - Você gosta de resolver problemas complexos e lógicos, ou prefere criar soluções visuais e criativas?  
 
-<!--START_SECTION:footer-->
+---
 
-<br />
-<br />
+## 💡 Feedback esperado para cada resposta
+- Reconhecer pontos fortes e afinidades.  
+- Mostrar como a resposta se conecta com áreas específicas da tecnologia.  
+- Sugerir caminhos de estudo ou carreiras relacionadas.  
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+---
+
+## 🏆 Resultado Final
+Com base nas respostas, o modelo deve:  
+
+- Atribuir uma **pontuação ou perfil** (ex.: "Perfil Analítico", "Perfil Criativo", "Perfil Explorador").  
+- Indicar **carreiras tech recomendadas** (ex.: Desenvolvedor Full Stack, Cientista de Dados, UX Designer, Engenheiro de Segurança, Especialista em Cloud, etc.).  
+- Explicar brevemente por que essa carreira combina com o usuário.  
+
+---
+
+## 📌 Exemplo de Saída Final
+> "Você demonstrou interesse em resolver problemas lógicos, tem disponibilidade de mais de 10h semanais para estudo e busca estabilidade no mercado.  
+> Seu perfil é **Analítico** e a carreira recomendada é **Cientista de Dados**, pois une alta demanda, bons salários e desafios intelectuais que se alinham ao seu estilo de aprendizado."
